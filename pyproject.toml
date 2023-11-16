@@ -1,0 +1,37 @@
+[tool.poetry]
+name = "griptape_reverse_string_tool"
+version = "0.1.0"
+description = "A Griptape tool for reversing strings."
+authors = ["Author Name <contact@example.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.9,<3.12"
+attr = "^0.3.2"
+schema = "^0.7.5"
+griptape = "^0.20.0"
+
+[tool.poetry.group.test]
+optional = true
+
+[tool.poetry.group.test.dependencies]
+pytest = "~=7.1"
+pytest-mock = "*"
+mongomock = "*"
+
+[tool.poetry.group.dev]
+optional = true
+
+[tool.poetry.group.dev.dependencies]
+black = "^23.7.0"
+
+[tool.black]
+line-length=120
+skip_magic_trailing_comma = true
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+
+
