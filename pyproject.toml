@@ -7,8 +7,6 @@ readme = "README.md"
 
 [tool.poetry.dependencies]
 python = ">=3.9,<3.12"
-attr = "^0.3.2"
-schema = "^0.7.5"
 griptape = "^0.20.0"
 
 [tool.poetry.group.test]
@@ -17,7 +15,6 @@ optional = true
 [tool.poetry.group.test.dependencies]
 pytest = "~=7.1"
 pytest-mock = "*"
-mongomock = "*"
 
 [tool.poetry.group.dev]
 optional = true
