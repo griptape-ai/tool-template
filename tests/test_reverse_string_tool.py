@@ -2,7 +2,7 @@ from griptape.artifacts import TextArtifact
 from reverse_string_tool import ReverseStringTool
 
 
-class TestReverseString:
+class TestReverseStringTool:
     def test_reverse_string(self):
         value = "some_value"
 
