@@ -1,5 +1,5 @@
 from griptape.structures import Agent
-from reverse_string_tool import ReverseStringTool
+from griptape.plugin_name.tools.reverse_string import ReverseStringTool
 
 
 agent = Agent(tools=[ReverseStringTool()])
