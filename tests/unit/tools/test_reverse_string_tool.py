@@ -1,5 +1,5 @@
 from griptape.artifacts import TextArtifact
-from griptape.plugin_name.tools.reverse_string import ReverseStringTool
+from griptape.extension_name.tools.reverse_string import ReverseStringTool
 
 
 class TestReverseStringTool:
